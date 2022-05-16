@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted access"
+AuthUserFile C:\Users\Rachel\Desktop\Uni work\BIT607\Assignment 3\private\.htpasswd.txt
+Require valid-user​
