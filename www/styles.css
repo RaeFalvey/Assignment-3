@@ -26,6 +26,7 @@ padding:14px 16px;
 float:left;
 overflow:hidden;
 background-color:#333}
+
 .content h2
 {font-size:15px;
 letter-spacing:5px;
@@ -36,7 +37,8 @@ padding:14px 16px;
 float:left;
 overflow:hidden;
 background-color:#333}
-.Section_top
+
+.Section_top /* This section deals with the top half of the screen */
 {width:100%;
 height:100%;
 overflow:hidden;
@@ -46,8 +48,9 @@ background-repeat:no-repeat;
 background-size:cover;
 text-align:center;
 justify-content:center;
-animation:change 10s infinite ease-in-out}
-.Section_no_animation
+animation:change 10s infinite ease-in-out} /*includes the animation for the background*/
+
+.Section_no_animation /* alternative section deals with the top half of the screen but has a static image as the background*/
 {width:100%;
 height:100%;
 overflow:hidden;
@@ -58,16 +61,19 @@ background-size:cover;
 text-align:center;
 justify-content:center;
 background-image:url(./images/lamb.jpg)}
-@keyframes change
+
+@keyframes change /* this section deals with the different images that cycle through */
 {0%{background-image:url(./images/pavlova.jpg)}
 20%{background-image:url(./images/rewena.jpg)}
 40%{background-image:url(./images/shellfish.jpg)}
 60%{background-image:url(./images/icecream.jpg)}
 80%{background-image:url(./images/salmon.jpg)}
 100%{background-image:url(./images/lamb.jpg)}}
-.topnav
+
+.topnav /* top navigation panel*/
 {overflow:hidden;
 background-color:#333}
+
 .topnav a
 {float:left;
 display:block;
@@ -75,31 +81,36 @@ color:#f2f2f2;
 text-align:center;
 padding:14px 16px;
 text-decoration:none}
-.topnav a:hover
+
+.topnav a:hover /* when the navigation panel is hovered over with a mouse the colour changes*/
 {background-color:#ddd;
 color:#000}
-.leftcolumn
+
+.leftcolumn /* left column attributes */
 {top:40%;
 float:left;
 width:50%;
 color:#fff;
 padding:200px;
 margin:100px}
-.rightcolumn{top:40%;
+
+.rightcolumn{top:40%; /* right column attributes */
 float:right;
 width:50%;
 color:#fff;
 padding:200px;
 margin:100px}
+
 .card
 {padding:50px;
 margin:20px}
+
 .row::after
 {content:"";
 display:table;
 clear:both}
 
-.footer
+.footer /* footer attributes */
 {padding:14px 16px;
 text-align:center;
 background:#333;

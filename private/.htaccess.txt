@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile "/Assignment 3/private/.htpasswd"
+AuthUserFile "C:\Users\Rachel\Desktop\Uni work\BIT607\Assignment 3\.htpasswd.txt"
 Require valid-user​
