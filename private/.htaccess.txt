@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile "https://dashboard.heroku.com/apps/bit607-assignment/private/Staff.html/.htpasswd
+AuthUserFile "/Assignment 3/.htpasswd"
 Require valid-user​
